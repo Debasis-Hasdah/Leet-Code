@@ -1,7 +1,7 @@
 public class RemoveDuplicates {
     public static void main(String[] args) {
         // Example input array (sorted)
-        int[] nums = {1, 1, 2, 3, 3};
+        int[] nums = {1, 1, 2, 3, 3,4,4};
 
         // Create an object of Solution class
         Solution sol = new Solution();
