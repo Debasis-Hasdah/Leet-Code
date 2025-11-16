@@ -1,7 +1,7 @@
 public class RemoveElement {
     public static void main(String[] args) {
         // Example input
-        int[] nums = {0, 1, 2, 2, 3, 0, 4, 2};
+        int[] nums = { 1, 2, 2, 3, 0, 4, 2};
         int val = 2;
 
         // Create object of Solution class
