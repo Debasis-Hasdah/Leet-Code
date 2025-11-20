@@ -27,8 +27,8 @@ public class JumpGame2 {
     public static void main(String[] args) {
         JumpGame2 obj = new JumpGame2();
 
-        int[] nums1 = {2, 3, 1, 1, 4};
-        int[] nums2 = {2, 3, 0, 1, 4};
+        int[] nums1 = {2, 3, 1, 1, 4, 6};
+        int[] nums2 = {2, 3, 0, 1, 4, 4};
 
         System.out.println("Input: " + Arrays.toString(nums1));
         System.out.println("Minimum jumps = " + obj.jump(nums1));
