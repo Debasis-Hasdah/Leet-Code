@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class HIndex {
 
@@ -11,17 +10,23 @@ public class HIndex {
     }
 
     public static int hIndex(int[] citations) {
-        Arrays.sort(citations);  // sort ascending
-        int n = citations.length;
+int n = citations.length;
 
-        int h = 0;
-        for (int i = 0; i < n; i++) {
-            int papersWithAtLeastThisManyCitations = n - i;
-            if (citations[i] >= papersWithAtLeastThisManyCitations) {
-                h = papersWithAtLeastThisManyCitations;
-                break;
-            }
+        // Step 1: Bucket array to count frequencies
+        int[] count = new int[n + 1];
+
+        for (int c : citations) {
+            if (c >= n) count[n]++;      // cap large values
+            else count[c]++;
         }
-        return h;
+
+        // Step 2: Go backward to find largest h
+        int papers = 0;
+        for (int h = n; h >= 0; h--) {
+            papers += count[h];
+            if (papers >= h) return h;  // Found valid h-index
+        }
+
+        return 0;
     }
 }
