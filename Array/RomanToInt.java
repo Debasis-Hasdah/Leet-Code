@@ -6,8 +6,8 @@ public static int romanToInt(String s) {
         for (int i = s.length() - 1; i >= 0; i--) {
             int curr = value(s.charAt(i));
 
-            if (curr < prev) total -= curr;   // subtractive case
-            else total += curr;               // normal addition
+            if (curr < prev) total -= curr;   
+            else total += curr;              
 
             prev = curr;
         }
@@ -33,5 +33,6 @@ public static int romanToInt(String s) {
         System.out.println(romanToInt("III"));      // 3
         System.out.println(romanToInt("LVIII"));    // 58
         System.out.println(romanToInt("MCMXCIV"));  // 1994
+        System.out.println(romanToInt("IX"));  // 1994
     }
 }
