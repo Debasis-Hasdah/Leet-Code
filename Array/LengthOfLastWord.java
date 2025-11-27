@@ -21,5 +21,6 @@ public class LengthOfLastWord {
         System.out.println(lengthOfLastWord("Hello World"));                  // 5
         System.out.println(lengthOfLastWord("   fly me   to   the moon  "));   // 4
         System.out.println(lengthOfLastWord("luffy is still joyboy"));         // 6
+        System.out.println(lengthOfLastWord("My name is debasis hasdah and i live in keonjhar"));        
     }
 }
