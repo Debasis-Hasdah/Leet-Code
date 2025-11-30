@@ -3,7 +3,7 @@ public class HIndex {
 
     public static void main(String[] args) {
         int[] citations1 = {3, 0, 6, 1, 5};
-        int[] citations2 = {1, 3, 1};
+        int[] citations2 = {1, 3, 1, 3};
 
         System.out.println("H-index = " + hIndex(citations1)); // 3
         System.out.println("H-index = " + hIndex(citations2)); // 1
