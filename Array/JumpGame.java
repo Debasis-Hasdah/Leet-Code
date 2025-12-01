@@ -2,8 +2,8 @@ public class JumpGame {
     public static void main(String[] args) {
         JumpGame sol = new JumpGame();
 
-        int[] ex1 = {2, 3, 1, 1, 4, 0};
-        int[] ex2 = {3, 2, 1, 0, 4, 1};
+        int[] ex1 = {3, 8 ,5, 6};
+        int[] ex2 = {3, 2, 1, 0};
 
         System.out.println("Example 1: " + arrayToString(ex1) + " -> " + sol.canJump(ex1));
         System.out.println("Example 2: " + arrayToString(ex2) + " -> " + sol.canJump(ex2));
