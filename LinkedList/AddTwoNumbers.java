@@ -45,7 +45,6 @@ public class AddTwoNumbers {
         }
     }
 
-    // Main method (psvm)
     public static void main(String[] args) {
 
         // Creating first number: 342 -> 2 -> 4 -> 3
