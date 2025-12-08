@@ -19,7 +19,7 @@ public class LengthOfLastWord {
     // Main method with examples
     public static void main(String[] args) {
         System.out.println(lengthOfLastWord("Hello World"));                  // 5
-        System.out.println(lengthOfLastWord("   fly me   to   the moon  "));   // 4
+        System.out.println(lengthOfLastWord("   my name is debasis hasdah "));   // 4
         System.out.println(lengthOfLastWord("luffy is still joyboy"));         // 6
         System.out.println(lengthOfLastWord("My name is debasis hasdah and i live in keonjhar"));        
     }
