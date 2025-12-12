@@ -58,8 +58,8 @@ public class MergeTwoSortedLists {
 
     // Main method to test
     public static void main(String[] args) {
-        ListNode l1 = buildList(new int[]{1, 2, 4});
-        ListNode l2 = buildList(new int[]{1, 3, 4});
+        ListNode l1 = buildList(new int[]{1, 2, 4, 6});
+        ListNode l2 = buildList(new int[]{1, 3, 4, 7});
 
         System.out.println("List1: " + listToString(l1));
         System.out.println("List2: " + listToString(l2));
