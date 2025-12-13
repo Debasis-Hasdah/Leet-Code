@@ -19,14 +19,14 @@ public class MergeSortedArray {
         }
     }
 
-    // Main method to test the merge function
+    
     public static void main(String[] args) {
         MergeSortedArray obj = new MergeSortedArray();
 
         int[] nums1 = {1, 2, 3,3, 0, 0, 0};
         int m = 3;
-        int[] nums2 = {2, 5, 6};
-        int n = 3;
+        int[] nums2 = {2, 5, 6, 8};
+        int n = 4;
 
         System.out.println("Before merge:");
         System.out.println("nums1 = " + Arrays.toString(nums1));
