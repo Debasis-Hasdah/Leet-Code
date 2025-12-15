@@ -14,7 +14,7 @@ public static int romanToInt(String s) {
         return total;
     }
 
-    // Helper to get Roman value
+    
     private static int value(char ch) {
         switch (ch) {
             case 'I': return 1;
@@ -28,11 +28,12 @@ public static int romanToInt(String s) {
         return 0;
     }
 
-    // Main method with examples
+   
     public static void main(String[] args) {
         System.out.println(romanToInt("III"));      // 3
         System.out.println(romanToInt("LVIII"));    // 58
         System.out.println(romanToInt("MCMXCIV"));  // 1994
         System.out.println(romanToInt("IX"));  // 1994
+        System.out.println(romanToInt("VII"));  // 1994
     }
 }
