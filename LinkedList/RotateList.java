@@ -53,10 +53,10 @@ public class RotateList {
         System.out.println();
     }
 
-    // psvm with example
+    
     public static void main(String[] args) {
 
-        // Create list: 1 -> 2 -> 3 -> 4 -> 5
+        
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
@@ -65,12 +65,12 @@ public class RotateList {
 
         int k = 2;
 
-        System.out.print("Original List: ");
+        System.out.print("Original List is: ");
         printList(head);
 
         head = rotateRight(head, k);
 
-        System.out.print("Rotated List:  ");
+        System.out.print("Rotated List is:  ");
         printList(head);
     }
 }
