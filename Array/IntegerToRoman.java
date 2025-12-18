@@ -22,5 +22,6 @@ public class IntegerToRoman {
         System.out.println(intToRoman(3));    // III
         System.out.println(intToRoman(58));   // LVIII
         System.out.println(intToRoman(1994)); // MCMXCIV
+        System.out.println(intToRoman(9)); 
     }
 }
