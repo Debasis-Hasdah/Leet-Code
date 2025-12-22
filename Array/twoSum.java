@@ -20,10 +20,10 @@ public class twoSum {
         return new int[]{-1, -1};
     }
 
-    // psvm
+   
     public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
+        int[] nums = {2, 7, 11, 15,20};
+        int target = 13;
 
         int[] result = twoSum(nums, target);
         System.out.println(Arrays.toString(result));
