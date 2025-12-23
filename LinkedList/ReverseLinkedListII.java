@@ -1,6 +1,6 @@
 public class ReverseLinkedListII {
 
-    // Definition for singly-linked list.
+   
     static class ListNode {
         int val;
         ListNode next;
@@ -35,7 +35,6 @@ public class ReverseLinkedListII {
         return dummy.next;
     }
 
-    // Helper to build a linked list from array
     public static ListNode buildList(int[] arr) {
         if (arr.length == 0) return null;
         ListNode head = new ListNode(arr[0]);
@@ -47,7 +46,7 @@ public class ReverseLinkedListII {
         return head;
     }
 
-    // Helper to print a linked list
+    
     public static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " -> ");
