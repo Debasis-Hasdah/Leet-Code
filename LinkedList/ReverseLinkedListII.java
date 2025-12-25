@@ -10,11 +10,11 @@ public class ReverseLinkedListII {
     public static ListNode reverseBetween(ListNode head, int left, int right) {
         if (head == null || left == right) return head;
 
-        // Create a dummy node to simplify edge case where left = 1
+        
         ListNode dummy = new ListNode(0);
         dummy.next = head;
 
-        // prev = node right before starting position
+       
         ListNode prev = dummy;
         for (int i = 1; i < left; i++) {
             prev = prev.next;
@@ -24,7 +24,7 @@ public class ReverseLinkedListII {
         ListNode curr = prev.next;
         ListNode nextNode = null;
 
-        // Reverse [left, right]
+       
         for (int i = 0; i < right - left; i++) {
             nextNode = curr.next;
             curr.next = nextNode.next;
@@ -64,6 +64,6 @@ public class ReverseLinkedListII {
         ListNode result = reverseBetween(list, left, right);
 
         System.out.println("\nAfter reversing from " + left + " to " + right + ":");
-        printList(result);  // Output: 1 -> 4 -> 3 -> 2 -> 5 -> null
+        printList(result);  // Output should be: 1 -> 4 -> 3 -> 2 -> 5 -> null
     }
 }
