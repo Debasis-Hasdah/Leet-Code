@@ -5,11 +5,11 @@ public class ValidPalindrome {
         int right = s.length() - 1;
 
         while (left < right) {
-            // Move left pointer to next alphanumeric
+           
             while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
                 left++;
             }
-            // Move right pointer to previous alphanumeric
+            
             while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
                 right--;
             }
