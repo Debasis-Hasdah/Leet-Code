@@ -9,7 +9,7 @@ public class ThreeSumSolution {
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length - 2; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) continue; // skip duplicates
+            if (i > 0 && nums[i] == nums[i - 1]) continue; 
 
             int left = i + 1;
             int right = nums.length - 1;
@@ -20,9 +20,9 @@ public class ThreeSumSolution {
                 if (sum == 0) {
                     result.add(Arrays.asList(nums[i], nums[left], nums[right]));
 
-                    // skip duplicates for left
+                   
                     while (left < right && nums[left] == nums[left + 1]) left++;
-                    // skip duplicates for right
+                    
                     while (left < right && nums[right] == nums[right - 1]) right--;
 
                     left++;
