@@ -7,13 +7,13 @@ public class MergeTwoSortedLists {
         ListNode(int x) { val = x; next = null; }
     }
 
-    // Merge two sorted linked lists, returning head of merged list
+   
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // Dummy node to simplify edge cases
         ListNode dummy = new ListNode(0);
         ListNode current = dummy;
 
-        // Traverse both lists, picking smaller node each time
+   
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {
                 current.next = l1;
@@ -32,7 +32,7 @@ public class MergeTwoSortedLists {
         return dummy.next;
     }
 
-    // Utility to build a list from array (for testing)
+    
     public static ListNode buildList(int[] arr) {
         if (arr.length == 0) return null;
         ListNode head = new ListNode(arr[0]);
@@ -44,7 +44,7 @@ public class MergeTwoSortedLists {
         return head;
     }
 
-    // Utility to convert list to string for printing
+
     public static String listToString(ListNode head) {
         StringBuilder sb = new StringBuilder();
         ListNode cur = head;
@@ -56,7 +56,7 @@ public class MergeTwoSortedLists {
         return sb.toString();
     }
 
-    // Main method to test
+   
     public static void main(String[] args) {
         ListNode l1 = buildList(new int[]{1, 2, 4, 6});
         ListNode l2 = buildList(new int[]{1, 3, 4, 7});
