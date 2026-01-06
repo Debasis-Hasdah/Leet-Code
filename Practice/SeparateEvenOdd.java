@@ -1,3 +1,5 @@
+//Topic name- Separate even odd
+
 public class SeparateEvenOdd {
 
     public static void separateEvenOdd(int[] arr) {
