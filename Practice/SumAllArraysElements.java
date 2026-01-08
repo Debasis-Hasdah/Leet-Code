@@ -1,4 +1,5 @@
-public class Main {
+
+public class SumAllArraysElements {
 
     // User function
     public static int arraySum(int[] arr) {
@@ -15,5 +16,7 @@ public class Main {
 
         int result = arraySum(arr);
         System.out.println("Sum of array elements: " + result);
+
     }
+
 }
