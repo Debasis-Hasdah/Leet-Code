@@ -10,9 +10,9 @@ public class SumAllArraysElements {
         return sum;
     }
 
-    // PSVM code
+  
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5}; // sample array
+        int[] arr = {1, 2, 3, 4, 5, 6}; // 
 
         int result = arraySum(arr);
         System.out.println("Sum of array elements: " + result);
