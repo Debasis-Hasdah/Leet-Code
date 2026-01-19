@@ -1,6 +1,6 @@
 public class BinaryToDecimal {
 
-    // Method to convert binary string to decimal
+    
     public static int binaryToDecimal(String binary) {
         int decimal = 0;
         int power = 1; // 2^0
@@ -18,7 +18,7 @@ public class BinaryToDecimal {
         return decimal;
     }
 
-    // psvm with examples
+  
     public static void main(String[] args) {
 
         String b1 = "1010";
