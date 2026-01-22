@@ -1,6 +1,6 @@
 public class CountAndSay {
 
-    // Method to generate the nth term
+    
     public static String countAndSay(int n) {
         String result = "1";
 
@@ -11,7 +11,7 @@ public class CountAndSay {
         return result;
     }
 
-    // Generates the next term from current
+    
     private static String nextTerm(String s) {
         StringBuilder sb = new StringBuilder();
 
@@ -24,13 +24,13 @@ public class CountAndSay {
                 count = 1;
             }
         }
-        // Append the last counted group
+        
         sb.append(count).append(s.charAt(s.length() - 1));
 
         return sb.toString();
     }
 
-    // psvm with examples
+    
     public static void main(String[] args) {
         System.out.println("n = 1 -> " + countAndSay(1)); // "1"
         System.out.println("n = 2 -> " + countAndSay(2)); // "11"
