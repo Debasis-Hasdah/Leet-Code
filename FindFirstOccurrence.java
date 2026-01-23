@@ -20,9 +20,9 @@ public class FindFirstOccurrence {
     }
 
     public static void main(String[] args) {
-        System.out.println(strStr("sadbutsad", "sad"));   // 0
-        System.out.println(strStr("leetcode", "leeto"));  // -1
-        System.out.println(strStr("hello", "ll"));        // 2
-        System.out.println(strStr("aaaaa", "bba"));       // -1
+        System.out.println(strStr("sadbutsad", "sad"));   
+        System.out.println(strStr("leetcode", "leeto")); 
+        System.out.println(strStr("hello", "ll"));       
+        System.out.println(strStr("aaaaa", "bba"));       
     }
 }
