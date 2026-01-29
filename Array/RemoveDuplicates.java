@@ -1,14 +1,14 @@
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
-        // Example input array (sorted)
+       
         int[] nums = {1, 1, 2, 3, 3,4,4,6};
 
-        // Create an object of Solution class
+        
         Solution sol = new Solution();
-        int k = sol.removeDuplicates(nums); // k = number of unique elements
+        int k = sol.removeDuplicates(nums); 
 
-        // Print results
+        
         System.out.println("Number of unique elements: " + k);
         System.out.print("Array after removing duplicates: ");
         for (int i = 0; i < k; i++) {
