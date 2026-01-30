@@ -11,7 +11,14 @@ public class PractOne {
         list.add(8);
         list.add(2);
         list.add(3);
+
+        int ele=7;
         
-        System.out.print(list);
+        System.out.println(list);
+        for(int i=0;i<list.size();i++){
+            if(ele==list.get(i)){
+                System.out.print(i);
+            }
+        }
     }
 }
