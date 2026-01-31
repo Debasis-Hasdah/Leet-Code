@@ -21,7 +21,7 @@ public class RotateArrayOptimal {
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
-        rotate(arr, 2);
+        rotate(arr, 3);
 
         for (int x : arr) {
             System.out.print(x + " ");
