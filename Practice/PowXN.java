@@ -21,10 +21,10 @@ public class PowXN {
     }
 
     public static void main(String[] args) {
-        System.out.println(myPow(2.00000, 10));     // 1024.0
-        System.out.println(myPow(2.10000, 3));      // approx 9.261
-        System.out.println(myPow(2.00000, -2));     // 0.25000
-        System.out.println(myPow(5.0, 0));          // 1.0
-        System.out.println(myPow(1.00000, 1000));   // 1.0
+        System.out.println(myPow(2.00000, 10));     
+        System.out.println(myPow(2.10000, 3));      
+        System.out.println(myPow(2.00000, -2));     
+        System.out.println(myPow(5.0, 0));          
+        System.out.println(myPow(1.00000, 1000));   
     }
 }
