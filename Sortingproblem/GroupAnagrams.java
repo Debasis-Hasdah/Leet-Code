@@ -24,7 +24,7 @@ public class GroupAnagrams {
     }
 
     public static void main(String[] args) {
-        String[] input1 = {"eat","tea","tan","ate","nat","bat"};
+        String[] input1 = {"eat","tea","tan","ate","nat","bat","mat"};
         System.out.println(groupAnagrams(input1));
 
         String[] input2 = {""};
