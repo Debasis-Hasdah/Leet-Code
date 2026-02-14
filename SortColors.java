@@ -14,7 +14,7 @@ public class SortColors {
                 mid++;
             } else if (nums[mid] == 1) {
                 mid++;
-            } else { // nums[mid] == 2
+            } else { 
                 swap(nums, mid, high);
                 high--;
             }
@@ -30,11 +30,11 @@ public class SortColors {
     public static void main(String[] args) {
         int[] nums1 = {2,0,2,1,1,0};
         sortColors(nums1);
-        System.out.println(Arrays.toString(nums1)); // [0,0,1,1,2,2]
+        System.out.println(Arrays.toString(nums1)); 
 
         int[] nums2 = {2,0,1};
         sortColors(nums2);
-        System.out.println(Arrays.toString(nums2)); // [0,1,2]
+        System.out.println(Arrays.toString(nums2));
     }
 }
 
