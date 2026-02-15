@@ -10,7 +10,7 @@ public class TextJustification {
             int j = i;
             int lineLength = 0;
 
-            // Find words that fit in the line
+            
             while (j < words.length &&
                    lineLength + words[j].length() + (j - i) <= maxWidth) {
                 lineLength += words[j].length();
@@ -20,7 +20,7 @@ public class TextJustification {
             int gaps = j - i - 1;
             StringBuilder line = new StringBuilder();
 
-            // Last line OR single word → left justify
+            
             if (j == words.length || gaps == 0) {
                 for (int k = i; k < j; k++) {
                     line.append(words[k]);
