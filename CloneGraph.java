@@ -37,7 +37,7 @@ public class CloneGraph {
     }
 
     public static void main(String[] args) {
-        // Build small test graph: 1 -- 2
+        
         Node n1 = new Node(1);
         Node n2 = new Node(2);
 
