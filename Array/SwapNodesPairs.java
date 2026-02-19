@@ -19,19 +19,19 @@ public class SwapNodesPairs {
             ListNode first = prev.next;
             ListNode second = first.next;
 
-            // Swap
+           
             first.next = second.next;
             second.next = first;
             prev.next = second;
 
-            // Move pointer
+          
             prev = first;
         }
 
         return dummy.next;
     }
 
-    // Helper to print list
+  
     public static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " -> ");
