@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class GenerateParenthesesPSVM {
+public class GenerateParentheses {
 
     public static void main(String[] args) {
-        int n = 3; // change this value to test
+        int n = 3; 
         List<String> result = generateParenthesis(n);
 
         System.out.println("Valid combinations:");
@@ -21,18 +21,18 @@ public class GenerateParenthesesPSVM {
     private static void backtrack(List<String> ans, String current,
                                   int open, int close, int n) {
 
-        // if string length = 2*n → valid combination
+       
         if (current.length() == 2 * n) {
             ans.add(current);
             return;
         }
 
-        // add '(' if possible
+       
         if (open < n) {
             backtrack(ans, current + "(", open + 1, close, n);
         }
 
-        // add ')' if valid
+        
         if (close < open) {
             backtrack(ans, current + ")", open, close + 1, n);
         }
