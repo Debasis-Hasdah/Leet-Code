@@ -3,8 +3,6 @@ import java.util.function.BiFunction;
 public class MultiParameterLambda {
 
     public static int helperFunction(int a, int b) {
-
-        // Lambda expression with two parameters
         BiFunction<Integer, Integer, Integer> add = (x, y) -> x + y;
 
         return add.apply(a, b);
@@ -13,7 +11,7 @@ public class MultiParameterLambda {
     public static void main(String[] args) {
 
         int a = 10;
-        int b = 20;
+        int b = 30;
 
         int result = helperFunction(a, b);
 
