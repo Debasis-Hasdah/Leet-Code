@@ -1,3 +1,4 @@
+package LinkedlistPract;
 public class PowXN {
 
     public static double myPow(double x, int n) {
