@@ -9,19 +9,19 @@ public class RotateIm {
             {7, 8, 9}
         };
 
-        System.out.println("Before rotation:");
+        System.out.println("Before rotation :");
         printMatrix(matrix);
 
         rotate(matrix);
 
-        System.out.println("\nAfter rotation:");
+        System.out.println("\nAfter rotation :");
         printMatrix(matrix);
     }
 
     public static void rotate(int[][] matrix) {
         int n = matrix.length;
 
-        // 1. Transpose
+        
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 int temp = matrix[i][j];
@@ -30,7 +30,7 @@ public class RotateIm {
             }
         }
 
-        // 2. Reverse each row
+        
         for (int i = 0; i < n; i++) {
             int left = 0, right = n - 1;
             while (left < right) {
