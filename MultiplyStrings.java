@@ -1,4 +1,4 @@
-public class MultiplyStringsExample {
+public class MultiplyStrings {
 
     public static String multiply(String num1, String num2) {
 
@@ -24,7 +24,7 @@ public class MultiplyStringsExample {
             }
         }
 
-        // convert array to string
+        
         StringBuilder sb = new StringBuilder();
 
         for (int num : result) {
