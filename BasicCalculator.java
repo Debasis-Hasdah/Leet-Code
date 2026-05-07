@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BasicCalculatorExample {
+public class BasicCalculator {
 
     public static int calculate(String s) {
 
