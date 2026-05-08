@@ -1,4 +1,4 @@
-public class CountAndSayExample {
+public class CountAndSay1 {
 
     public static String countAndSay(int n) {
 
