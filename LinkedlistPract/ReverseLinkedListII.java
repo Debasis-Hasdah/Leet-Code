@@ -57,7 +57,7 @@ public class ReverseLinkedListII {
     }
 
     public static void main(String[] args) {
-        ListNode list = buildList(new int[]{1, 2, 3, 4, 5});
+        ListNode list = buildList(new int[]{1, 2, 3, 4, 5, 6});
         System.out.println("Original List:");
         printList(list);
 
@@ -65,6 +65,6 @@ public class ReverseLinkedListII {
         ListNode result = reverseBetween(list, left, right);
 
         System.out.println("\nAfter reversing from " + left + " to " + right + ":");
-        printList(result);  // Output should be: 1 -> 4 -> 3 -> 2 -> 5 -> null
+        printList(result); 
     }
 }
