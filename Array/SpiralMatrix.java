@@ -21,13 +21,13 @@ public class SpiralMatrix {
 
         while (top <= bottom && left <= right) {
 
-            // Left → Right
+            
             for (int i = left; i <= right; i++) {
                 result.add(matrix[top][i]);
             }
             top++;
 
-            // Top → Bottom
+          
             for (int i = top; i <= bottom; i++) {
                 result.add(matrix[i][right]);
             }
@@ -41,7 +41,7 @@ public class SpiralMatrix {
                 bottom--;
             }
 
-            // Bottom → Top
+           
             if (left <= right) {
                 for (int i = bottom; i >= top; i--) {
                     result.add(matrix[i][left]);
