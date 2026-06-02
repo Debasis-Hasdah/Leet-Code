@@ -19,7 +19,7 @@ public class CountAndSay1 {
                 }
             }
 
-            // last group
+           
             temp.append(count).append(result.charAt(result.length() - 1));
 
             result = temp.toString();
