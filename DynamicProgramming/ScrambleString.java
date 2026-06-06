@@ -9,8 +9,8 @@ public class ScrambleString {
 
     public static void main(String[] args) {
 
-        String s1 = "great";
-        String s2 = "rgeat";
+        String s1 = "greate";
+        String s2 = "rgeate";
 
         System.out.println(isScramble(s1, s2));
     }
