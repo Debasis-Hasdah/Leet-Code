@@ -9,7 +9,7 @@ public class UniquePaths {
 
         int[][] dp = new int[m][n];
 
-        // First row
+        
         for (int j = 0; j < n; j++) {
             dp[0][j] = 1;
         }
@@ -19,7 +19,7 @@ public class UniquePaths {
             dp[i][0] = 1;
         }
 
-        // Fill remaining cells
+        
         for (int i = 1; i < m; i++) {
 
             for (int j = 1; j < n; j++) {
