@@ -4,8 +4,8 @@ public class UniquePaths {
 
     public static void main(String[] args) {
 
-        int m = 3;
-        int n = 7;
+        int m = 5;
+        int n = 15;
 
         int[][] dp = new int[m][n];
 
@@ -14,7 +14,7 @@ public class UniquePaths {
             dp[0][j] = 1;
         }
 
-        // First column
+        
         for (int i = 0; i < m; i++) {
             dp[i][0] = 1;
         }
