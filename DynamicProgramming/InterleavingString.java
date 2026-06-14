@@ -30,7 +30,7 @@ public class InterleavingString {
 
         dp[0][0] = true;
 
-        // First column
+
         for (int i = 1; i <= m; i++) {
 
             dp[i][0] =
@@ -40,7 +40,7 @@ public class InterleavingString {
                     == s3.charAt(i - 1);
         }
 
-        // First row
+
         for (int j = 1; j <= n; j++) {
 
             dp[0][j] =
@@ -50,7 +50,7 @@ public class InterleavingString {
                     == s3.charAt(j - 1);
         }
 
-        // Fill DP table
+    
         for (int i = 1; i <= m; i++) {
 
             for (int j = 1; j <= n; j++) {
