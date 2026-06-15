@@ -4,7 +4,7 @@ public class UniquePaths {
 
     public static void main(String[] args) {
 
-        int m = 5;
+        int m = 10;
         int n = 15;
 
         int[][] dp = new int[m][n];
